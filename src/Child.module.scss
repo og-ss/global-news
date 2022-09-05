@@ -1,0 +1,9 @@
+/* 模块化,只能对class和id选择器生效 */
+$width:300px;
+
+ul {
+    .item {
+        width: $width;
+        background-color: brown;
+    }
+}
