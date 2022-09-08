@@ -33,6 +33,20 @@ const items = [
         getItem('角色列表', '/right-manage/role/list'),
         getItem('权限列表', '/right-manage/right/list'),
     ]),
+    getItem('新闻管理', '/news-manage/', <AppstoreOutlined />, [
+        getItem('撰写新闻', '/news-manage/add'),
+        getItem('草稿箱', '/news-manage/draft'),
+        getItem('新闻分类', '/news-manage/category'),
+    ]),
+    getItem('审核管理', '/audit-manage/', <AppstoreOutlined />, [
+        getItem('审核新闻', '/audit-manage/audit'),
+        getItem('审核列表', '/audit-manage/list'),
+    ]),
+    getItem('新闻发布', '/publish-manage/', <AppstoreOutlined />, [
+        getItem('待发布', '/publish-manage/unpublished'),
+        getItem('已发布', '/publish-manage/published'),
+        getItem('已下线', '/publish-manage/sunset'),
+    ]),
 ];
 
 
