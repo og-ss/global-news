@@ -168,7 +168,6 @@
       "roleType": 3,
       "rights": [
         "/home",
-        "/news-manage",
         "/news-manage/list",
         "/news-manage/add",
         "/news-manage/update/:id",
@@ -179,7 +178,8 @@
         "/publish-manage",
         "/publish-manage/unpublished",
         "/publish-manage/published",
-        "/publish-manage/sunset"
+        "/publish-manage/sunset",
+        "/news-manage"
       ]
     }
   ],
@@ -587,7 +587,7 @@
       "author": "admin",
       "roleId": 1,
       "auditState": 1,
-      "publishState": 0,
+      "publishState": 3,
       "createTime": 1647873533687,
       "star": 0,
       "view": 0,
@@ -617,7 +617,7 @@
       "author": "admin",
       "roleId": 1,
       "auditState": 2,
-      "publishState": 2,
+      "publishState": 3,
       "createTime": 1648030843721,
       "star": 0,
       "view": 0,
@@ -797,6 +797,18 @@
       "star": 0,
       "view": 0,
       "id": 28
+    },
+    {
+      "title": "AS",
+      "categoryId": 2,
+      "content": "content",
+      "region": "全球",
+      "auditState": 0,
+      "publishState": 0,
+      "createTime": 1662713722693,
+      "star": 0,
+      "view": 0,
+      "id": 29
     }
   ]
 }
